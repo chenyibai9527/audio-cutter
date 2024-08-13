@@ -29,10 +29,10 @@ function getClipRect(start: number, end: number) {
   return `rect(0, ${end}px, ${containerHeight}px, ${start}px)`;
 }
 
-const color1 = '#0cf';
-const color2 = '#1ad1ff';
-const gray1 = '#ddd';
-const gray2 = '#e3e3e3';
+const color1 = '#055913';
+const color2 = '#00ff94';
+const gray1 = '#b8ffe1';
+const gray2 = '#b8ffe1';
 
 interface PlayerProps {
   blob: Blob;

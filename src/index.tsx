@@ -142,12 +142,12 @@ function App() {
       {
         state.audioBuffer || state.decoding ? (
           <div>
-            <h2 className="app-title">Audio Cutter</h2>
+            <h2 className="app-title">爱写歌音频剪辑</h2>
 
             {
               state.decoding ? (
                 <div className="player player-landing">
-                  DECODING...
+                  解码中...
                 </div>
               ) : (
                 <Player
@@ -263,11 +263,11 @@ function App() {
           </div>
         ) : (
           <div className="landing">
-            <h2>Audio Cutter</h2>
+            <h2>爱写歌音频剪辑</h2>
             <FilePicker onPick={handleFileChange}>
               <div className="file-main">
                 <Icon icon={musicIcon} />
-                Select music file
+                请上传音频文件
               </div>
             </FilePicker>
           </div>
